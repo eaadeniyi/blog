@@ -1,0 +1,93 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    height: 50px;
+    margin: 15px 0;
+}
+textarea{
+    margin: 15px 0;
+}
+
+input[type='submit']{
+    background: rgb(97, 88, 88);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif; 
+}
+
+/* Styling the header section */
+div#parent header {
+    font-family: "Helvetica", sans-serif;
+}
+div#parent header .logo h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div#parent header .time p {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+div#parent header {
+    background-color: rgb(247, 247, 247);
+}
+/* End of Styling the header section */
+
+div#parent section .nav-links {
+    /* background-color: black; */
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+
+div#parent section .nav-links ul li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 0;
+    /* margin: 10px 80px; */
+}
+
+div#parent section .nav-links ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    color:rgb(247, 247, 247);
+}
+
+div#parent section .nav-links ul li a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+/* End of styling the main-display  */
+
+/* Main-display content */
+div#parent section .main-content h1 {
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* End of Main-Display Content */
